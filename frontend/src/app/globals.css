@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme {
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@layer base {
+  :root {
+    --background: theme('colors.slate.950');
+    --foreground: theme('colors.slate.50');
+    --border: theme('colors.slate.800');
+    --input: theme('colors.slate.800');
+    --ring: theme('colors.slate.300');
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
