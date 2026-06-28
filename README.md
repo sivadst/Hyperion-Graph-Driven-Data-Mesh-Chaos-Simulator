@@ -1,20 +1,33 @@
 <div align="center">
 
-# ⚡ Hyperion
-### Graph-Driven Data Mesh & Chaos Engineering Simulator
+# 🌌 Hyperion
+
+### Enterprise Graph-Driven Data Mesh & Chaos Engineering Platform
 
 <p align="center">
-Enterprise Platform for Visualizing, Simulating & Stress Testing Distributed Systems
+
+**Model • Simulate • Break • Recover • Optimize**
+
+*A next-generation enterprise digital twin for distributed systems, graph intelligence, and AI-powered resilience engineering.*
+
 </p>
 
 <p align="center">
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green)
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED)
-![License](https://img.shields.io/badge/License-MIT-success)
+![MIT](https://img.shields.io/badge/License-MIT-success)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+
+</p>
+
+<p align="center">
+
+🚀 Live Chaos Simulation • 🕸️ Interactive Graph Intelligence • 🤖 AI Resilience Advisor • 📊 Enterprise Analytics
 
 </p>
 
@@ -22,289 +35,92 @@ Enterprise Platform for Visualizing, Simulating & Stress Testing Distributed Sys
 
 ## 🌍 Overview
 
-Modern cloud-native applications consist of hundreds of interconnected microservices. A single failure can cascade through an entire platform.
+Modern cloud-native platforms are no longer simple applications—they are living ecosystems of interconnected services where a single failure can cascade across an entire organization.
 
-**Hyperion** is an enterprise-grade simulation platform that helps engineers visualize, stress-test, and analyze distributed architectures using graph intelligence, chaos engineering, and AI-powered resilience analysis.
+**Hyperion** is an enterprise-grade Graph-Driven Data Mesh & Chaos Engineering platform designed to model, visualize, simulate, and strengthen distributed systems before failures reach production.
 
-Instead of waiting for production failures, Hyperion enables teams to safely inject failures, monitor cascading effects, and understand system resilience through an interactive digital environment.
+Instead of reacting to outages, Hyperion enables engineering teams to proactively inject failures, analyze service dependencies, observe cascading effects, and receive AI-generated resilience recommendations through an immersive, real-time digital twin.
 
----
-
-# ✨ Features
-
-## 🕸 Interactive Graph Topology
-
-- Real-time service dependency visualization
-- Dynamic node relationships
-- Zoomable architecture explorer
-- Live service health monitoring
+Whether you're exploring microservice architectures, validating platform resilience, or studying distributed systems, Hyperion provides a safe environment for experimentation without risking production infrastructure.
 
 ---
 
-## ⚡ Chaos Engineering
+# ✨ Key Highlights
 
-Inject failures including:
-
-- Network latency
-- Service crashes
-- Node failures
-- Packet loss
-- Database outages
-- High CPU
-- Memory pressure
-- Cascading failures
-
----
-
-## 🤖 AI Resilience Advisor
-
-The built-in AI engine analyzes system behavior and provides:
-
-- Root cause analysis
-- Failure propagation explanation
-- Risk assessment
-- Recovery recommendations
-- Infrastructure optimization
-
----
-
-## 📊 Enterprise Dashboard
-
-Monitor
-
-- Service Health
-- Availability
-- Latency
-- Throughput
-- Error Rate
-- Active Nodes
-- System Load
-- Dependency Graph
-
----
-
-## 📈 Analytics
-
-Generate insights including
-
-- Failure timelines
-- Blast radius
-- Dependency bottlenecks
-- Recovery duration
-- Service reliability
-- Performance trends
+* 🕸️ Interactive Service Dependency Graph
+* ⚡ Chaos Engineering & Failure Injection
+* 🤖 AI-Powered Resilience Advisor
+* 📊 Executive Operations Dashboard
+* 📈 Live System Analytics
+* 🔥 Cascading Failure Simulation
+* 🧠 Graph Intelligence Engine
+* 🌐 Distributed System Digital Twin
+* 🐳 Docker & Container Ready
+* 🧪 Automated Testing Suite
 
 ---
 
 # 🏗 Architecture
 
+```text
+                        🌐 Hyperion Platform
+
+      ┌─────────────────────────────────────────────┐
+      │            Next.js Enterprise UI            │
+      └───────────────────┬─────────────────────────┘
+                          │
+                  REST API + WebSockets
+                          │
+      ┌───────────────────▼─────────────────────────┐
+      │              FastAPI Backend                │
+      └───────────────────┬─────────────────────────┘
+                          │
+ ┌───────────────┬────────┼─────────┬───────────────┐
+ │               │        │         │               │
+ ▼               ▼        ▼         ▼               ▼
+
+Chaos Engine   Graph AI  Analytics  Event Bus   AI Advisor
+
+ │               │        │         │               │
+ └───────────────┴────────┴─────────┴───────────────┘
+                          │
+                    SQLite Database
 ```
-                     ┌──────────────────┐
-                     │   Next.js UI     │
-                     └────────┬─────────┘
-                              │
-                     REST + WebSockets
-                              │
-                     ┌────────▼─────────┐
-                     │   FastAPI API    │
-                     └────────┬─────────┘
-                              │
-        ┌─────────────────────┼────────────────────┐
-        │                     │                    │
-        ▼                     ▼                    ▼
-
- Chaos Engine          Graph Engine         AI Advisor
-
-        │                     │                    │
-        └──────────────┬──────┴──────────────┐
-                       ▼
-                 SQLite Database
-```
 
 ---
 
-# 🚀 Technology Stack
-
-## Frontend
-
-- Next.js 15
-- React 19
-- TypeScript
-- Tailwind CSS
-- React Flow
-- Recharts
-- Framer Motion
-
-## Backend
-
-- FastAPI
-- Python 3.12
-- SQLAlchemy
-- Pydantic
-- NetworkX
-- AsyncIO
-
-## DevOps
-
-- Docker
-- Docker Compose
-- Pytest
-- ESLint
-
----
-
-# 🧠 AI Capabilities
-
-Hyperion's AI module can:
-
-- Detect abnormal dependency behavior
-- Explain cascading failures
-- Recommend resilient architectures
-- Identify critical bottlenecks
-- Estimate infrastructure risk
-- Suggest recovery strategies
-
----
-
-# 🌐 Use Cases
-
-- Chaos Engineering
-- Cloud Infrastructure
-- Platform Engineering
-- Site Reliability Engineering
-- Distributed Systems
-- Data Mesh Architecture
-- DevOps Education
-- Enterprise Architecture
-
----
-
-# 📸 Dashboard
-
-| Overview | Graph Explorer |
-|----------|----------------|
-| Enterprise Metrics | Interactive Network |
-
----
-
-# ⚙ Installation
+# 🚀 Quick Start
 
 ```bash
 git clone https://github.com/yourusername/hyperion.git
 
 cd hyperion
-```
 
----
-
-## Backend
-
-```bash
-cd backend
-
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
-```
-
----
-
-## Frontend
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
----
-
-## Docker
-
-```bash
 docker compose up --build
 ```
 
----
+Open your browser:
 
-# 📂 Project Structure
+🌐 **Frontend:** http://localhost:3000
 
-```
-Hyperion
+⚡ **Backend API:** http://localhost:8000
 
-├── backend
-│   ├── api
-│   ├── engine
-│   ├── models
-│   ├── services
-│   ├── ai
-│   ├── database
-│   └── tests
-│
-├── frontend
-│   ├── app
-│   ├── components
-│   ├── hooks
-│   ├── lib
-│   └── styles
-│
-├── docker
-├── docs
-└── README.md
-```
+📚 **API Docs:** http://localhost:8000/docs
 
 ---
 
-# 🎯 Why Hyperion?
+## 🎯 Why Hyperion?
 
-Hyperion demonstrates how modern distributed systems behave under failure conditions. By combining graph intelligence, chaos engineering, AI-driven insights, and real-time visualization, it provides an immersive environment for understanding and improving cloud-native resilience.
+Hyperion goes beyond traditional monitoring dashboards by combining graph intelligence, distributed systems simulation, chaos engineering, and AI-driven analysis into a single enterprise platform.
 
----
-
-# 🛣 Roadmap
-
-- Kubernetes Simulation
-- Multi-Region Clusters
-- Kafka Event Streaming
-- Neo4j Graph Database
-- Prometheus Integration
-- Grafana Monitoring
-- AI Incident Prediction
-- Time Travel Replay
-- Digital Twin Infrastructure
-- Multi-Agent AI Operations
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-Feel free to open issues, submit pull requests, or suggest improvements.
-
----
-
-# 📜 License
-
-MIT License
+It demonstrates modern software architecture patterns, resilience engineering, and platform operations through an interactive experience that mirrors real-world cloud infrastructure.
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project interesting, consider giving it a star!
+## ⭐ Build resilient systems before production builds them for you.
 
-**Built for modern Cloud, AI & Platform Engineering**
+**Designed for Platform Engineering • Site Reliability Engineering • Distributed Systems • Cloud Infrastructure • AI Engineering**
 
 </div>
-
-## Quickstart
-
-Run with docker-compose:
-```bash
-docker-compose up --build
-```
-
-Access the UI at `http://localhost:3000` and API at `http://localhost:8000`.
